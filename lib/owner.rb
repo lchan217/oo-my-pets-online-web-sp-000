@@ -63,8 +63,8 @@ class Owner
       fish.mood = "happy"
     end 
   end
-  def pets 
-    @pets
+  def pets=(pets)
+    @pets = pets
   end 
   def sell_pets
     pets.each do |key,value|
